@@ -1,0 +1,23 @@
+1) composer.phar self-update
+
+2) Don't commit these files and folders:
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+
+3) Get all code and run:
+php composer.phar install
+
+4) Some commandline:
+php app/console
+php app/console help	
+ Sizzle/FrontendBundle
+ 
+ 5) debug:
+ php app/console router:debug
